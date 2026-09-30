@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Sandbox Miraflores — Propuesta para el primer sandbox regulatorio a nivel distrital del Perú. Un ambiente experimental para probar innovación urbana con seguridad jurídica." />
+<meta name="theme-color" content="#00875A" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Sandbox Miraflores — Ambiente Regulatorio Experimental" />
+<meta property="og:description" content="La primera propuesta de sandbox regulatorio distrital del Perú. Innovación con seguridad jurídica." />
+<meta property="og:locale" content="es_PE" />
+<meta property="og:url" content="https://[TU-DOMINIO]/" />
+<meta name="twitter:card" content="summary_large_image" />
+<title>Sandbox Miraflores — Propuesta de Sandbox Regulatorio Distrital</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "GovernmentService",
+  "name": "Sandbox Miraflores",
+  "description": "Propuesta de ambiente regulatorio experimental a nivel distrital para probar innovación urbana bajo autorización temporal en Miraflores, Perú.",
+  "provider": {"@type":"GovernmentOrganization","name":"[ORGANISMO PROMOTOR]","address":{"@type":"PostalAddress","addressCountry":"PE"}},
+  "areaServed": {"@type":"City","name":"Miraflores, Lima, Perú"},
+  "inLanguage": "es-PE"
+}
+</script>
+<style>
+:root{
+  --verde-900:#00432C;--verde-700:#006644;--verde:#00875A;--verde-400:#2FB185;
+  --arena:#F3EEE4;--coral:#F26A4B;--dorado:#E8B04B;--mar:#0E7C9B;
+  --blanco:#FFFFFF;--tinta:#0F1A16;--tinta-2:#41504A;--gris:#8A968F;--crema:#FAF8F3;--linea:#E4E0D6;
+  --font-display:'Fraunces',Georgia,serif;--font-body:'Manrope',system-ui,sans-serif;
+  --fs-300:clamp(0.8125rem,0.79rem + 0.1vw,0.875rem);--fs-400:clamp(0.95rem,0.9rem + 0.2vw,1.0625rem);
+  --fs-500:clamp(1.125rem,1.05rem + 0.4vw,1.375rem);--fs-600:clamp(1.5rem,1.3rem + 0.9vw,2.125rem);
+  --fs-700:clamp(2rem,1.6rem + 1.8vw,3rem);--fs-800:clamp(2.75rem,2rem + 3.5vw,4.5rem);--fs-900:clamp(3.25rem,2.3rem + 5vw,6rem);
+  --sp-1:0.5rem;--sp-2:1rem;--sp-3:1.5rem;--sp-4:2rem;--sp-5:3rem;--sp-6:4rem;--sp-7:6rem;--sp-8:8rem;
+  --container:1200px;--radius-sm:6px;--radius-md:14px;--radius-lg:26px;
+  --shadow-sm:0 2px 10px rgba(15,26,22,.06);--shadow-md:0 16px 40px rgba(15,26,22,.12);
+  --ease:cubic-bezier(.22,.8,.28,1);--dur:280ms;
+}
+*,*::before,*::after{box-sizing:border-box;}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;}
+body{margin:0;font-family:var(--font-body);font-size:var(--fs-400);line-height:1.6;color:var(--tinta);background:var(--blanco);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
+img,svg{max-width:100%;display:block;}
+button{font:inherit;cursor:pointer;border:0;background:none;color:inherit;}
+a{color:var(--verde);text-decoration:none;transition:color var(--dur) var(--ease);}
+a:hover{color:var(--verde-900);}
+:focus-visible{outline:3px solid var(--dorado);outline-offset:3px;border-radius:var(--radius-sm);}
+.skip-link{position:absolute;top:-100px;left:var(--sp-2);background:var(--tinta);color:var(--blanco);padding:var(--sp-1) var(--sp-2);border-radius:var(--radius-sm);z-index:1000;transition:top var(--dur) var(--ease);}
+.skip-link:focus{top:var(--sp-2);color:var(--blanco);}
+.container{width:100%;max-width:var(--container);margin-inline:auto;padding-inline:var(--sp-3);}
+h1,h2,h3,h4{font-family:var(--font-display);font-weight:700;line-height:1.1;letter-spacing:-0.015em;color:var(--tinta);margin:0 0 var(--sp-3);}
+h1{font-size:var(--fs-900);}h2{font-size:var(--fs-800);}h3{font-size:var(--fs-600);}h4{font-size:var(--fs-500);}
+p{margin:0 0 var(--sp-2);color:var(--tinta-2);max-width:70ch;}
+.eyebrow{display:inline-block;font-size:var(--fs-300);font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:var(--verde);background:rgba(0,135,90,.1);padding:6px 14px;border-radius:999px;margin-bottom:var(--sp-3);}
+.iso{width:38px;height:38px;flex-shrink:0;}
+
+.site-header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.92);backdrop-filter:saturate(180%) blur(12px);-webkit-backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--linea);}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:var(--sp-3);padding:var(--sp-2) 0;}
+.brand{display:flex;align-items:center;gap:10px;font-family:var(--font-display);font-weight:700;color:var(--tinta);font-size:var(--fs-500);letter-spacing:-0.02em;}
+.brand .mf{color:var(--verde);}
+.nav-list{display:flex;gap:var(--sp-3);list-style:none;margin:0;padding:0;}
+.nav-list a{color:var(--tinta);font-weight:600;font-size:var(--fs-400);padding:6px 0;position:relative;}
+.nav-list a::after{content:'';position:absolute;left:0;bottom:-2px;width:0;height:2px;background:var(--verde);transition:width var(--dur) var(--ease);}
+.nav-list a:hover::after{width:100%;}
+.nav-cta{background:var(--coral);color:var(--blanco);padding:10px 20px;border-radius:999px;font-weight:700;transition:all var(--dur) var(--ease);}
+.nav-cta:hover{background:var(--tinta);color:var(--blanco);transform:translateY(-1px);}
+.menu-toggle{display:none;width:44px;height:44px;border-radius:var(--radius-sm);align-items:center;justify-content:center;}
+.menu-toggle span{width:22px;height:2px;background:var(--tinta);position:relative;}
+.menu-toggle span::before,.menu-toggle span::after{content:'';position:absolute;left:0;width:22px;height:2px;background:var(--tinta);transition:transform var(--dur) var(--ease);}
+.menu-toggle span::before{top:-7px;}.menu-toggle span::after{top:7px;}
+@media (max-width:860px){.menu-toggle{display:inline-flex;}.nav-list,.nav-cta{display:none;}.nav-list.is-open{display:flex;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:var(--blanco);padding:var(--sp-3);border-bottom:1px solid var(--linea);box-shadow:var(--shadow-md);gap:var(--sp-2);}}
+
+.hero{position:relative;overflow:hidden;padding:var(--sp-7) 0 var(--sp-8);color:var(--blanco);isolation:isolate;}
+.hero::before{content:'';position:absolute;inset:0;z-index:-2;background:linear-gradient(160deg,var(--verde-900) 0%,var(--verde-700) 55%,var(--mar) 120%);}
+.hero::after{content:'';position:absolute;bottom:-2px;left:0;right:0;height:130px;z-index:-1;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'><path d='M0,40 C300,110 500,0 700,45 C900,90 1050,30 1200,55 L1200,120 L0,120 Z' fill='%23ffffff' fill-opacity='0.06'/></svg>");background-size:cover;pointer-events:none;}
+.hero h1{color:var(--blanco);max-width:17ch;}
+.hero h1 .accent{color:var(--dorado);}
+.hero .eyebrow{background:rgba(255,255,255,.14);color:#fff;}
+.hero p.lead{color:rgba(255,255,255,.85);font-size:var(--fs-500);max-width:56ch;margin-bottom:var(--sp-4);}
+.hero-actions{display:flex;gap:var(--sp-2);flex-wrap:wrap;}
+.btn{display:inline-flex;align-items:center;gap:var(--sp-1);padding:14px 28px;border-radius:999px;font-weight:700;font-size:var(--fs-400);transition:all var(--dur) var(--ease);cursor:pointer;border:2px solid transparent;}
+.btn-primary{background:var(--coral);color:var(--blanco);}
+.btn-primary:hover{background:#fff;color:var(--tinta);transform:translateY(-2px);box-shadow:var(--shadow-md);}
+.btn-ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.4);}
+.btn-ghost:hover{background:rgba(255,255,255,.12);color:#fff;}
+.hero-meta{display:flex;gap:var(--sp-4);flex-wrap:wrap;margin-top:var(--sp-5);padding-top:var(--sp-3);border-top:1px solid rgba(255,255,255,.16);}
+.hero-meta div{color:rgba(255,255,255,.75);font-size:var(--fs-300);}
+.hero-meta strong{display:block;color:#fff;font-size:var(--fs-500);font-family:var(--font-display);}
+
+section{padding:var(--sp-7) 0;}
+section.alt{background:var(--crema);}
+.section-head{max-width:720px;margin-bottom:var(--sp-5);}
+
+.beneficios{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:var(--sp-3);}
+.beneficio{padding:var(--sp-4);background:var(--blanco);border:1px solid var(--linea);border-radius:var(--radius-lg);transition:all var(--dur) var(--ease);}
+.beneficio:hover{transform:translateY(-4px);box-shadow:var(--shadow-md);border-color:var(--verde);}
+.beneficio .num{font-family:var(--font-display);font-size:var(--fs-800);font-weight:700;color:var(--verde);line-height:1;margin-bottom:var(--sp-2);display:block;}
+.beneficio h3{font-size:var(--fs-500);margin-bottom:var(--sp-1);}
+.beneficio p{margin:0;}
+
+.participantes{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:var(--sp-2);}
+.participante{display:flex;align-items:flex-start;gap:var(--sp-2);padding:var(--sp-3);background:rgba(0,135,90,.06);border-radius:var(--radius-md);}
+.participante .icon{width:40px;height:40px;background:var(--verde);border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center;color:#fff;flex-shrink:0;font-family:var(--font-display);font-weight:700;}
+.participante h4{margin:0 0 4px;font-size:var(--fs-400);}
+.participante p{margin:0;font-size:var(--fs-300);}
+
+.pasos{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:var(--sp-3);position:relative;}
+.paso{background:var(--blanco);padding:var(--sp-4);border-radius:var(--radius-lg);border-top:4px solid var(--coral);position:relative;}
+.paso .step{position:absolute;top:-18px;left:var(--sp-3);width:36px;height:36px;background:var(--coral);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-weight:700;box-shadow:var(--shadow-sm);}
+.paso h3{font-size:var(--fs-500);margin-top:var(--sp-2);}
+
+.ejemplos{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:var(--sp-2);}
+.ejemplo{padding:var(--sp-3);background:var(--blanco);border:1px solid var(--linea);border-left:4px solid var(--dorado);border-radius:var(--radius-md);transition:transform var(--dur) var(--ease);}
+.ejemplo:hover{transform:translateX(4px);}
+.ejemplo h4{margin:0 0 var(--sp-1);font-size:var(--fs-400);}
+.ejemplo p{margin:0;font-size:var(--fs-300);}
+
+.faq{display:flex;flex-direction:column;gap:var(--sp-1);}
+.faq details{background:var(--blanco);border:1px solid var(--linea);border-radius:var(--radius-md);padding:var(--sp-2) var(--sp-3);transition:border-color var(--dur) var(--ease);}
+.faq details[open]{border-color:var(--verde);}
+.faq summary{cursor:pointer;font-family:var(--font-display);font-weight:600;font-size:var(--fs-400);list-style:none;display:flex;justify-content:space-between;align-items:center;gap:var(--sp-2);}
+.faq summary::-webkit-details-marker{display:none;}
+.faq summary::after{content:'+';font-size:var(--fs-600);color:var(--verde);transition:transform var(--dur) var(--ease);line-height:1;}
+.faq details[open] summary::after{content:'−';}
+.faq details>p{margin-top:var(--sp-2);}
+
+.cta-final{background:var(--dorado);color:var(--tinta);text-align:center;padding:var(--sp-7) 0;position:relative;overflow:hidden;}
+.cta-final h2{color:var(--tinta);}
+.cta-final p{color:var(--tinta);opacity:.85;margin-inline:auto;margin-bottom:var(--sp-3);}
+
+.site-footer{background:var(--verde-900);color:rgba(255,255,255,.8);padding:var(--sp-5) 0 var(--sp-3);font-size:var(--fs-300);}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:var(--sp-4);margin-bottom:var(--sp-4);}
+.site-footer h5{color:#fff;font-family:var(--font-body);font-weight:700;text-transform:uppercase;letter-spacing:.1em;font-size:var(--fs-300);margin:0 0 var(--sp-2);}
+.site-footer ul{list-style:none;padding:0;margin:0;}
+.site-footer li{margin-bottom:var(--sp-1);}
+.site-footer a{color:rgba(255,255,255,.8);}
+.site-footer a:hover{color:var(--dorado);}
+.footer-brand{display:flex;align-items:center;gap:10px;font-family:var(--font-display);font-weight:700;font-size:var(--fs-500);color:#fff;margin-bottom:var(--sp-2);}
+.footer-bottom{padding-top:var(--sp-3);border-top:1px solid rgba(255,255,255,.15);display:flex;justify-content:space-between;flex-wrap:wrap;gap:var(--sp-2);}
+@media (max-width:760px){.footer-grid{grid-template-columns:1fr;gap:var(--sp-3);}}
+
+.reveal{opacity:0;transform:translateY(20px);transition:opacity 600ms var(--ease),transform 600ms var(--ease);}
+.reveal.is-visible{opacity:1;transform:none;}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none;}html{scroll-behavior:auto;}}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Saltar al contenido</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="iso-mf" viewBox="0 0 100 100"><circle cx="50" cy="34" r="16" fill="var(--dorado)"/><path d="M6,64 Q28,48 50,64 T94,64" fill="none" stroke="var(--verde)" stroke-width="7" stroke-linecap="round"/><path d="M6,80 Q28,64 50,80 T94,80" fill="none" stroke="var(--mar)" stroke-width="7" stroke-linecap="round"/></symbol></svg>
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="#top" class="brand" aria-label="Sandbox Miraflores">
+      <svg class="iso" aria-hidden="true"><use href="#iso-mf"/></svg>
+      Sandbox <span class="mf">Miraflores</span>
+    </a>
+    <nav aria-label="Navegación principal">
+      <ul class="nav-list" id="nav-list">
+        <li><a href="#que-es">Qué es</a></li>
+        <li><a href="#beneficios">Beneficios</a></li>
+        <li><a href="#participantes">Quiénes participan</a></li>
+        <li><a href="#como-funciona">Cómo funciona</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+    <a class="nav-cta" href="#contacto">Sumarse</a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-list"><span></span></button>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero" id="top">
+  <div class="container">
+    <span class="eyebrow">Propuesta distrital · 2026</span>
+    <h1>Probar lo nuevo, <span class="accent">sin romper</span> la regla.</h1>
+    <p class="lead">Una propuesta para crear el <strong style="color:#fff;">primer sandbox regulatorio a nivel distrital del Perú</strong>: un ambiente experimental donde empresas e instituciones prueban productos, servicios y procesos innovadores en Miraflores, bajo autorización temporal y supervisada.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#que-es">Conocer la propuesta</a>
+      <a class="btn btn-ghost" href="#contacto">Sumarse al diálogo</a>
+    </div>
+    <div class="hero-meta" role="list">
+      <div role="listitem"><strong>+40</strong>países con sandboxes regulatorios</div>
+      <div role="listitem"><strong>Distrital</strong>escala pionera en el Perú</div>
+      <div role="listitem"><strong>2026</strong>ventana de oportunidad</div>
+    </div>
+  </div>
+</section>
+
+<section id="que-es">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">¿Qué es?</span>
+      <h2>Un espacio acotado para innovar con seguridad jurídica.</h2>
+      <p>Un sandbox regulatorio es un ambiente experimental, definido por la autoridad, donde empresas, instituciones y emprendedores pueden probar con usuarios reales soluciones que <strong>no encajan del todo en la regulación vigente</strong>, bajo condiciones controladas, plazo definido y supervisión activa.</p>
+      <p>El objetivo no es eludir la norma, sino <strong>generar evidencia</strong> que permita a la autoridad modernizar su marco con datos reales. Es una herramienta de política pública madura, ya usada en Reino Unido, Singapur, Colombia, México, Brasil y, en el ámbito financiero, por el propio Perú. Miraflores puede ser pionero en llevarla al nivel <strong>municipal y de innovación urbana</strong>.</p>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="beneficios">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">¿Qué ventajas tiene?</span>
+      <h2>Tres razones para que Miraflores lidere.</h2>
+    </div>
+    <div class="beneficios">
+      <article class="beneficio reveal"><span class="num">01</span><h3>Atrae inversión e innovación</h3><p>Un entorno con seguridad jurídica hace de Miraflores un imán para empresas innovadoras que buscan dónde probar.</p></article>
+      <article class="beneficio reveal"><span class="num">02</span><h3>Reduce fricción</h3><p>Acelera la llegada de soluciones evitando vacíos regulatorios que hoy frenan proyectos durante años.</p></article>
+      <article class="beneficio reveal"><span class="num">03</span><h3>Mejora la gestión pública</h3><p>Los datos de cada piloto permiten al distrito diseñar normas basadas en evidencia, no en conjeturas.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="participantes">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">¿Quiénes pueden participar?</span>
+      <h2>Una conversación entre cuatro actores.</h2>
+      <p>El sandbox no es exclusivo del sector privado. Su valor está en sentar en la misma mesa a quienes regulan, innovan e investigan.</p>
+    </div>
+    <div class="participantes">
+      <div class="participante reveal"><div class="icon" aria-hidden="true">A</div><div><h4>Autoridades</h4><p>La municipalidad y organismos que quieran modernizar su marco con evidencia.</p></div></div>
+      <div class="participante reveal"><div class="icon" aria-hidden="true">E</div><div><h4>Empresas</h4><p>Startups, pymes y grandes empresas con soluciones que enfrentan barreras regulatorias.</p></div></div>
+      <div class="participante reveal"><div class="icon" aria-hidden="true">V</div><div><h4>Vecinos</h4><p>La comunidad de Miraflores como usuaria y co-creadora de las soluciones.</p></div></div>
+      <div class="participante reveal"><div class="icon" aria-hidden="true">U</div><div><h4>Academia</h4><p>Universidades y centros que aporten evaluación independiente y rigor.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="como-funciona">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">¿Cómo funciona?</span>
+      <h2>Cuatro etapas, ciclos abiertos.</h2>
+      <p>Cada ciclo del sandbox tiene una convocatoria pública con criterios claros, plazos definidos y resultados publicados de forma transparente.</p>
+    </div>
+    <div class="pasos">
+      <article class="paso reveal"><span class="step">1</span><h3>Postulación</h3><p>El proponente presenta su proyecto, identifica la barrera regulatoria y propone el diseño del piloto.</p></article>
+      <article class="paso reveal"><span class="step">2</span><h3>Selección</h3><p>Un comité evalúa elegibilidad, riesgo, beneficio público y capacidad de generar aprendizaje.</p></article>
+      <article class="paso reveal"><span class="step">3</span><h3>Experimentación</h3><p>El piloto opera bajo autorización temporal, con monitoreo continuo y salvaguardas para los vecinos.</p></article>
+      <article class="paso reveal"><span class="step">4</span><h3>Aprendizaje</h3><p>Los resultados se publican y alimentan recomendaciones concretas para ajustar el marco.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="ejemplos">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Ejemplos de aplicación</span>
+      <h2>¿Qué proyectos podrían entrar?</h2>
+      <p>Casos hipotéticos pertinentes a un distrito como Miraflores. La lista definitiva dependerá del marco que se acuerde.</p>
+    </div>
+    <div class="ejemplos">
+      <article class="ejemplo reveal"><h4>Movilidad urbana</h4><p>Micromovilidad eléctrica, nuevas formas de transporte y pago integrado.</p></article>
+      <article class="ejemplo reveal"><h4>Turismo y economía nocturna</h4><p>Experiencias, plataformas y modelos de servicio innovadores.</p></article>
+      <article class="ejemplo reveal"><h4>Comercio y gastronomía</h4><p>Nuevos formatos comerciales, delivery y economía de plataformas.</p></article>
+      <article class="ejemplo reveal"><h4>Sostenibilidad</h4><p>Gestión de residuos, energía y soluciones ambientales urbanas.</p></article>
+      <article class="ejemplo reveal"><h4>GovTech y trámites</h4><p>Digitalización, identidad y automatización de servicios municipales.</p></article>
+      <article class="ejemplo reveal"><h4>Espacio público inteligente</h4><p>Sensorización, drones de fiscalización y gestión del espacio urbano.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="faq">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Preguntas frecuentes</span>
+      <h2>Lo que más se pregunta.</h2>
+    </div>
+    <div class="faq reveal">
+      <details><summary>¿Un sandbox significa desregular?</summary><p>No. Significa crear un espacio acotado, supervisado y temporal para experimentar. La regulación general sigue vigente fuera del sandbox. La idea es proteger a los usuarios mientras se aprende.</p></details>
+      <details><summary>¿El Perú no tiene ya un sandbox?</summary><p>Sí, en el ámbito financiero (a través de la SBS). Esta propuesta es distinta: sería el primero a nivel <strong>distrital y de innovación urbana</strong>, aplicado a la gestión municipal y no al sector financiero.</p></details>
+      <details><summary>¿Quién supervisa los pilotos?</summary><p>Una mesa técnica con el organismo coordinador, el área municipal competente y un panel independiente. La transparencia de criterios y resultados es condición esencial.</p></details>
+      <details><summary>¿Cuánto dura un piloto?</summary><p>Habitualmente entre 6 y 24 meses, con hitos intermedios de evaluación, según la complejidad del proyecto.</p></details>
+      <details><summary>¿Necesita una ordenanza nueva o se puede partir antes?</summary><p>Se puede iniciar con instrumentos administrativos municipales y luego consolidar en una ordenanza. Lo importante es no esperar a tenerlo todo perfecto para empezar a aprender.</p></details>
+      <details><summary>¿Cómo se evita el favoritismo?</summary><p>Convocatorias abiertas, criterios públicos, comités con participación independiente, publicación de resultados y rendición de cuentas.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="cta-final" id="contacto">
+  <div class="container">
+    <h2>Sumémonos al diálogo.</h2>
+    <p style="max-width:55ch;">Si representas a una autoridad, una empresa o una institución interesada en explorar el sandbox regulatorio de Miraflores, escríbenos.</p>
+    <a class="btn btn-primary" href="mailto:[CORREO-DE-CONTACTO]?subject=Interés%20en%20Sandbox%20Miraflores" style="background:var(--verde-900);color:#fff;">Escribir al equipo →</a>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand"><svg class="iso" style="width:30px;height:30px;" aria-hidden="true"><use href="#iso-mf"/></svg> Sandbox Miraflores</div>
+        <p style="color:rgba(255,255,255,.7);max-width:42ch;">Propuesta abierta para crear el primer sandbox regulatorio distrital del Perú. Documento vivo, en construcción colaborativa.</p>
+      </div>
+      <div>
+        <h5>Navegar</h5>
+        <ul><li><a href="#que-es">Qué es</a></li><li><a href="#beneficios">Beneficios</a></li><li><a href="#como-funciona">Cómo funciona</a></li><li><a href="#faq">Preguntas frecuentes</a></li></ul>
+      </div>
+      <div>
+        <h5>Contacto</h5>
+        <ul><li><a href="mailto:[CORREO-DE-CONTACTO]">[CORREO-DE-CONTACTO]</a></li><li>Miraflores, Lima, Perú</li></ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 — Iniciativa distrital. Versión propuesta.</span>
+      <span>Inspirado en buenas prácticas internacionales de sandboxes regulatorios.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var toggle=document.querySelector('.menu-toggle');
+  var list=document.getElementById('nav-list');
+  if(toggle&&list){
+    toggle.addEventListener('click',function(){var open=list.classList.toggle('is-open');toggle.setAttribute('aria-expanded',open?'true':'false');});
+    list.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){list.classList.remove('is-open');toggle.setAttribute('aria-expanded','false');});});
+  }
+  var prefersReduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var reveals=document.querySelectorAll('.reveal');
+  if(prefersReduced||!('IntersectionObserver'in window)){reveals.forEach(function(el){el.classList.add('is-visible');});return;}
+  var io=new IntersectionObserver(function(entries){entries.forEach(function(entry){if(entry.isIntersecting){entry.target.classList.add('is-visible');io.unobserve(entry.target);}});},{threshold:0.12,rootMargin:'0px 0px -40px 0px'});
+  reveals.forEach(function(el){io.observe(el);});
+})();
+</script>
+</body>
+</html>
